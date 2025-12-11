@@ -136,20 +136,27 @@ export const mockPortfolioData = {
   certifications: [
     {
       id: 1,
+      title: "Build Your Own Static Website (HTML, CSS, Bootstrap)",
+      issuer: "NxtWave",
+      date: "August 2024",
+      link: "https://drive.google.com/file/d/15hw3SwcccXRDGkC2PPW2uEKQ2fJMmNOT/view?usp=drive_link"
+    },
+    {
+      id: 2,
       title: "AWS Mega Workshop",
       issuer: "NxtWave",
       date: "June 2024",
       link: "https://drive.google.com/drive/folders/178HImPMTMP_2Y6wTiUPPjf9XrqY_Klrj"
     },
     {
-      id: 2,
+      id: 3,
       title: "Data Analytics Mega Workshop",
       issuer: "NxtWave",
       date: "January 2023",
       link: "https://drive.google.com/drive/folders/1WVk3qH7rfdI_WT7jpM-E5OZ71KverIrO"
     },
     {
-      id: 3,
+      id: 4,
       title: "Ethical Hacking Mega Workshop",
       issuer: "NxtWave",
       date: "October 2023",
