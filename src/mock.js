@@ -93,7 +93,36 @@ export const mockPortfolioData = {
       liveLink: "https://task-manger-frontend-liard.vercel.app/",
       githubLink: "https://github.com/narasimha-146/Task_Manger_frontend",
       image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=400&fit=crop"
+    },
+    {
+      id: 3,
+      title: "Digital Health Wallet",
+      description:
+        "Built a secure full-stack Digital Health Wallet application that enables users to upload, manage, track, and share medical reports and vital health data with controlled access and strong security measures.",
+      technologies: [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "REST API",
+        "Supabase (PostgreSQL)",
+        "JWT",
+        "Recharts",
+        "Twilio WhatsApp API",
+        "Nodemailer",
+        "Render"
+      ],
+      features: [
+        "User authentication and authorization using JWT with Supabase Row Level Security (RLS)",
+        "Upload, view, download, and filter medical reports (PDF) via web and WhatsApp integration",
+        "Vitals tracking with interactive charts to visualize health trends over time",
+        "Permission-based report sharing (view/download) with email notifications",
+        "Secure and scalable architecture with clear separation of frontend, backend, and data layers"
+      ],
+      liveLink: "https://health-wallet-frontend.onrender.com/",
+      githubLink: "https://github.com/narasimha-146/Health-Wallet",
+      image: "./health_wallet.png"
     }
+
   ],
   
   skills: {
@@ -136,10 +165,42 @@ export const mockPortfolioData = {
   certifications: [
     {
       id: 1,
+      title: "Python Programming Language",
+      issuer: "NxtWave",
+      date: "January 2026",
+      link: "https://drive.google.com/file/d/11XNuBAFzeNx5mzhpfRhhL4zUzVEj0zOc/view?usp=sharing"
+    },
+    {
+      id: 2,
+      title: "React JS",
+      issuer: "NxtWave",
+      date: "December 2025",
+      link: "https://drive.google.com/file/d/1dttKT0rXsmA0MRd0gvP1k1dCB1fazvtq/view?usp=drive_link"
+    },
+    {
+      id: 3,
+      title: "Node JS",
+      issuer: "NxtWave",
+      date: "December 2025",
+      link: "https://drive.google.com/file/d/1oTpIWv_HnkyrQPMgqr9Y9hGtcVfMMEP5/view?usp=sharingL"
+    },
+    {
+      id: 4,
       title: "Build Your Own Static Website (HTML, CSS, Bootstrap)",
       issuer: "NxtWave",
       date: "August 2024",
       link: "https://drive.google.com/file/d/15hw3SwcccXRDGkC2PPW2uEKQ2fJMmNOT/view?usp=drive_link"
+    },
+  ],
+
+
+  workshops: [
+    {
+      id: 1,
+      title: "Generative AI 2.0 Mega Workshop",
+      issuer: "NxtWave",
+      date: "September 2024",
+      link: "https://drive.google.com/drive/folders/16t6xL6CgB90bc9slH8RrhYnF_iq2xI6T?usp=sharing"
     },
     {
       id: 2,

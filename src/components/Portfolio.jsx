@@ -6,6 +6,7 @@ import ExperienceSection from './sections/ExperienceSection';
 import ProjectsSection from './sections/ProjectsSection';
 import SkillsSection from './sections/SkillsSection';
 import CertificationsSection from './sections/CertificationsSection';
+import WorkshopsSection from './sections/WorkshopsSection';
 
 const Portfolio = () => {
   const { profile, contact } = mockPortfolioData;
@@ -141,6 +142,12 @@ const Portfolio = () => {
             >
               Certifications
             </button>
+            <button 
+              onClick={() => scrollToSection('workshops')}
+              className={`nav-item ${activeSection === 'workshops' ? 'active' : ''}`}
+            >
+              Workshops
+            </button>
           </nav>
         </div>
       </div>
@@ -165,6 +172,10 @@ const Portfolio = () => {
         
         <div id="certifications" className="section-container">
           <CertificationsSection />
+        </div>
+
+        <div id="workshops" className="section-container">
+          <WorkshopsSection />
         </div>
       </div>
     </div>
